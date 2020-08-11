@@ -1,51 +1,35 @@
 ---
-    header-title: Transferleistung 1
-    title: Optimierung der Build-Dauer eines Web Application Bundler durch Anpassung der Konfiguration und dessen Auswirkung auf den Entwicklungsprozess
+    header-title: Transferleistung 3
+    title: 
 
-    author: Max Mustermann
-    Zenturie: A22f
+    author: Til Blechschmidt
+    Zenturie: A17a
     Studiengang: Angewandte Informatik
-    Matrikelnummer: 1337
+    Matrikelnummer: 8240
 
-    keywords: [keyword1, keyword2]
+    keywords: [gdpr, dsgvo, cookies, web, banner, viewport, survey]
     
     # This can be replaced with any valid bibliography file (.yaml, .json, .bib)
-    bibliography: src/bibliography.yaml
+    bibliography: src/bibliography.bib
 ---
 
-# Possent ventis hanc delubra (+CPU)
+# Introduction
 
-## Colophonius curvum stetit sospes
+Data privacy has a long history for both companies and states as well as users. With the advent of the internet it became easy — relatively speaking — to collect data about individual users to analyse their behavior. This data could be used for a multitude of purposes by different parties: Website owners could use it to analyse the traffic on their page in order to optimize it, advertising networks can employ this data to create user profiles aiding personalised and targeted advertising. Other uses include selling the data to interested parties for revenue.
 
-Lorem markdownum Hiems elaborque totum porrigit. Pereuntem tamen Cereris
-**habenas** sum captus quoque, videt, actum auras atria, memorantur arborea
-offer postquam Lichan; inmensos.
+In the early days of the world-wide web these practices became widespread and relatively intransparent and the choice of providing options regarding data privacy to the user was with the website providers. This was less than ideal and by the late 20th century and early 21st law enforcement agencies began to regulate the collection of personal data.
 
-1. Crede crudelis rescindere rapit collabitur capillis inpar
-2. Cum fuerit eheu Scyrumve
-3. Lycaon flammiferis subit
-4. Urbem cadme servitii tibi leve vestem pendentia
-5. Postquam fronti alios mentis despondet ingenti Mater
+Over the years many different levels of regulations have been employed ranging from a simple notice that data was being collected to a full consent request pop-up. Modern regulations like the GDPR require websites to explicitly ask the user for consent before employing tracking technology. These consent flows come about in two major forms: Banners and Modals. Banners block a certain region^[commonly ranging between 5% and 25%] of the viewport, usually at the bottom, and tend to have two buttons to either reject or accept monitoring of user activity. Modals take the same basic concepts employed by banners but block access to page before a decision is made. Both solutions can fulfill the GDPR's requirements but at the same time both are capable of missing the mark! It is highly debatable and up to the jurisdiction whether or not techniques like auto-dismissing consent banners are compliant. This cite from the regulation states the requirements for the consent mechanism:
 
-## Quae cuncta {#sec:section1}
+> Consent should be given by a clear affirmative act establishing a freely given, specific, informed and unambiguous indication of the data subject's agreement to the processing of personal data [...].
 
-Voces ales credita. Cum misit terram est votaque quis dederat sumit, profecturas
-criminis totque sex querenti. Iudice est illis *et* vires et Insula, mactandus,
-credulitate iudicium ita. Ganz interessant ist dabei +@tbl:id
+With users being exposed to cookie notices, opt-in banners, and consent modals for over two decades and companies attempting to walk a tightrope in the legal grey area the question comes up how many users actually notice and interact with these data privacy related page elements. This includes the question how much of an effect different sizes of banners have on the results.
 
-| Tables        |      Are      |  Cool |
-|---------------|:-------------:|------:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      |   centered    |   $12 |
-| zebra stripes |   are neat    |    $1 |
+Given that question this paper will focus on the following two research questions:
 
-Table: Beispiel Tabelle {#tbl:id}
+1. How did consent requirements evolve in the European Union over the last two decades?
+2. What effect does the size of a consent banner have on the number of users interacting with it?
 
-Saxa resoluta quid nupta, tremulis ore infelix
-[ipse](http://urbes-caede.org/siccaveratadversum) deque caelitibus confessa
-amnis at tamque, **procul siquidem** in artis! Poma partes sponte, nam lux
-discedit gravi aequore nunc[@src:source1]. Diese Information findet man in @fig:example.
-
-![Beispiel Abbildung](src/images/example.jpeg){#fig:example}
+The first question will be answered by researching documents regarding the legislation surrounding data privacy. The second question will be evaluated through a survey which guides users through a few websites with different consent mechanisms.
 
 \pagebreak

@@ -19,5 +19,5 @@ let defaultBookmarks = [
     Bookmark(title: "Backblaze", url: .online(URL(string: "https://backblaze.com/")!)),
     Bookmark(title: "IKEA", url: .online(URL(string: "https://www.ikea.com/de/de/")!)),
     Bookmark(title: "Flüge.de", url: .online(URL(string: "https://fluege.de")!)),
-    Bookmark(title: "Netflix", url: .online(URL(string: "https://www.netflix.com/de-en/")!))
+    Bookmark(title: "Netflix", url: .online(URL(string: "https://www.netflix.com/de-de/")!))
 ].sorted { $0.title < $1.title }
