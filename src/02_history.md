@@ -1,24 +1,15 @@
-- 2002 ePrivacy (2002/58/EC) requires opt-out [@ePrivacy-ineffective]
-- 2009 ePrivacy was changed to require opt-in (2009/136/EC) [@ePrivacy-changes] [@ePrivacy-2009; section 66]
-- 2011 Still not effective and member states do their own stuff (e.g. browser tracking settings are sufficient "consent") [@ePrivacy-ineffective]
-- ePrivacy is only a directive so member states don't have to follow it directly (and it just so happened, surprise)
-  - Telemediengesetz in Germany could be interpreted as 'opt-out' [@tmg-art13]
-  - Multiple cases of law enforcement ignoring this and executive not changing the legislation [@tmg-opt-out-news]
-  - Years later EuGH decided that TMG from 2007 was not properly implementing ePrivacy [@banner-button-not-sufficient]
+# History of online data privacy in the (+EU)
 
-- 2009 -> 87% not want advertising based on tracking [@survey-1]
-- 2010 -> 67% behavioral targeting should be illegal [@survey-2]
-- 2011 -> 85% would not consent to tracking, 78% not for analytics [@survey-3]
-- 2012 -> 68% "not okay" with behavioral advertising [@survey-4]
+At the beginning of the 21st century the world-wide web was a wild-west of tracking and personal data collection. In 2002 the (+EU) took action to counter this development and published the so-called ePrivacy directive (Privacy and Electronic Communications Directive 2002/58/EC). It acknowledged both the importance and usefulness of cookies but also the danger they could pose to a user's privacy [@ePrivacy-2002]. While the directive was designed to make (+opt-in) a requirement it could be interpreted differently, instead allowing (+opt-out).
 
-- 2012 Pages are still happily forwarding tracking info without explicit opt-in [@website-survey]
-  - Not only against user choice and theoretically 'illegal'
-  - Potential to harm end users
+As a matter of fact, the ePrivacy was only a directive and thus considered a guideline for member states of the (+EU) instead of a mandatory word-by-word legislation that applied. This resulted in many countries interpreting the directive differently: Some countries followed the originally intended notion of opting in while others like e.g. Germany incorporated an (+opt-out) mechanism into their local laws [@tmg-art13]. A few members even considered the browser provided tracking prevention preferences to suffice, treating the installation of a browser by the user as general consent [@ePrivacy-ineffective].
 
-- 2012 the GDPR was comissioned [@gdpr-history]
+In the following years multiple cases of local law enforcement agencies ignoring this deviation and concerns from users followed [@tmg-opt-out-news]. Close to two decades later the (+ECJ) decided that the german law was not properly following the directive and requested changes [@banner-button-not-sufficient]. To counter these misintepretations of the directive, the (+EU) published a new version (2009/136/EC) seven years later to make the requirement for (+opt-in) more explicit amongst other changes [@ePrivacy-changes] [@ePrivacy-2009; section 66].
 
-- 2018 GDPR goes live, requires web pages to request explicit consent [@gdpr-recitation-32; section 32]
+While promising, the change did not have the desired effect and member states were still not following the directive as expected [@ePrivacy-ineffective]. However, users were still concerned about their privacy as a number of representative surveys proved. A survey by the University of Pennsylvania from 2009 showed that 87% did not want target advertising based on user tracking [@survey-1]. The following year Gallup found out that 67% thought that behavioural targeting should be outright illegal [@survey-2]. In 2011 a survey by TRUSTe estimated that about 85% of users would not consent to tracking if given the choice and 78% would reject analytics cookies [@survey-3]. The year after, an independent survey showed that 68% are still "not okay" with behavioural advertising [@survey-4]. Despite all this, research by J. R. Mayer et al. uncovered that many websites were still forwarding tracking information without explicit (+opt-in). Not only does this act against the users choice and is considered illegal but it may also harm the users privacy as non-anonymised data is forwarded to third parties [@website-survey].
 
-- 2020 Even though the GDPR restricts user tracking without explicit consent pages are still doing it [@facebook-trackers]
-  - Citation source is unscientific but sampling the tested pages revealed similar results
-  - Varying degree of compliance between pages (see examples choosen for survey)
+This did not go by unnoticed and the (+EU) comissioned the (+GDPR) which, as opposed to the ePrivacy directive, was set out to be a regulation to prevent re-interpretations by the members and making the incorporation into local law mandatory [@gdpr-history]. Six years later the regulation was published and taking effect, requiring websites to request explicit consent before enabling any tracking software [@gdpr-recitation-32; section 32].
+
+Even though the (+GDPR) restricts user tracking without explicit consent ((+opt-in)) many websites are ignoring the regulation for a variety of reasons. A non-scientific survey found that up to two thirds of german news websites employ Facebook tracking software without requesting consent. While the source can't be considered reliable, samples taken from sites mentioned in the blog article do reveal that the pages are in-fact using such software without consent. More examples can be found in the list of websites selected for the survey in this paper (see +@tbl:websites). According to a survey by the Ponemon Institute about 40% of companies expected to miss the deadline of the GDPR taking effect to become compliant, while an additional 8% stated that they don't know when and if they will ever reach this state. They discovered that the average annual budget for compliance is about 13 million US dollars, which could explain why many companies are lacking behind [@race-to-gdpr].
+
+\pagebreak

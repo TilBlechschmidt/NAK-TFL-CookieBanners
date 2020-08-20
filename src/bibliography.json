@@ -1,0 +1,306 @@
+[
+    {
+        "type": "webpage",
+        "URL": "https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32002L0058:en:HTML",
+        "id": "ePrivacy-2002",
+        "issued": {
+            "date-parts": [
+                [
+                    2002,
+                    7,
+                    12
+                ]
+            ]
+        },
+        "title": "Directive 2002/58/EC of the European Parliament and of the Council"
+    },
+    {
+        "URL": "https://eur-lex.europa.eu/legal-content/DE/TXT/PDF/?uri=CELEX:32009L0136&from=EN",
+        "id": "ePrivacy-2009",
+        "issued": {
+            "date-parts": [
+                [
+                    2009
+                ]
+            ]
+        },
+        "title": "RICHTLINIE 2009/136/eg des europäischen Parlaments und des Rates",
+        "type": "webpage"
+    },
+    {
+        "URL": "http://data.europa.eu/eli/reg/2016/679/oj",
+        "id": "gdpr-recitation-32",
+        "issued": {
+            "date-parts": [
+                [
+                    2016,
+                    4
+                ]
+            ]
+        },
+        "title": "REGULATION (eu) 2016/679 of the european parliament and of the council",
+        "type": "webpage"
+    },
+    {
+        "URL": "https://www.lto.de/recht/hintergruende/h/bgh-cookies-eugh-einwilligung-telemediengesetz-datenschutz-werbung/",
+        "author": [
+            {
+                "family": "Nebel",
+                "given": "Jens"
+            }
+        ],
+        "id": "banner-button-not-sufficient",
+        "issued": {
+            "date-parts": [
+                [
+                    2020,
+                    5
+                ]
+            ]
+        },
+        "title": "Cookie-einwilligung muss aktiv angekreuzt werden",
+        "type": "webpage"
+    },
+    {
+        "URL": "https://www.lto.de/recht/hintergruende/h/eugh-c-673-17-cookies-aktiv-einwilligung/",
+        "author": [
+            {
+                "family": "Nebel",
+                "given": "Jens"
+            }
+        ],
+        "id": "tmg-opt-out-news",
+        "issued": {
+            "date-parts": [
+                [
+                    2019,
+                    9
+                ]
+            ]
+        },
+        "title": "Cookies nur mit einwilligung?",
+        "type": "webpage"
+    },
+    {
+        "URL": "http://www.gesetze-im-internet.de/tmg/__13.html",
+        "id": "tmg-art13",
+        "title": "Telemediengesetz vom 26. Februar 2007 (bgbl. I s. 179)",
+        "type": "webpage"
+    },
+    {
+        "URL": "https://rufposten.de/blog/2019/06/03/facebook-tracker-auf-deutschen-medienseiten/",
+        "author": [
+            {
+                "family": "Eberl",
+                "given": "Matthias"
+            }
+        ],
+        "id": "facebook-trackers",
+        "issued": {
+            "date-parts": [
+                [
+                    2019,
+                    3
+                ]
+            ]
+        },
+        "title": "Facebook trackt nutzer auf drei viertel aller deutschen nachrichtenseiten",
+        "type": "webpage"
+    },
+    {
+        "URL": "https://edps.europa.eu/data-protection/data-protection/legislation/history-general-data-protection-regulation_en",
+        "id": "gdpr-history",
+        "publisher": "European data protection supervisor",
+        "title": "The history of the general data protection regulation",
+        "type": "webpage"
+    },
+    {
+        "URL": "https://web.archive.org/web/20120622115408/http://ec.europa.eu/justice/policies/privacy/docs/wpdocs/2010/wp171_en.pdf",
+        "id": "ePrivacy-changes",
+        "issued": {
+            "date-parts": [
+                [
+                    2010,
+                    2
+                ]
+            ]
+        },
+        "publisher": "Article 29 Data Protection Working Party",
+        "title": "Opinion 2/2010 on online behavioural advertising",
+        "type": "paper-conference"
+    },
+    {
+        "URL": "https://web.archive.org/web/20111017120748/http://ec.europa.eu/justice/data-protection/article-29/documentation/other-document/files/2011/20110803_letter_to_oba_annexes.pdf",
+        "annote": "Statement that the ePrivacy stuff isn’t really doing what it was supposed to do.",
+        "id": "ePrivacy-ineffective",
+        "issued": {
+            "date-parts": [
+                [
+                    2011,
+                    8
+                ]
+            ]
+        },
+        "publisher": "Article 29 Data Protection Working Party",
+        "title": "Letter to the online advertising industry",
+        "type": "paper-conference"
+    },
+    {
+        "URL": "https://web.archive.org/web/20120629200510/http://pewinternet.org/Reports/2012/Search-Engine-Use-2012.aspx",
+        "author": [
+            {
+                "family": "Purcell",
+                "given": "Kristen"
+            },
+            {
+                "family": "Brenner",
+                "given": "Joanna"
+            },
+            {
+                "family": "Rainie",
+                "given": "Lee"
+            }
+        ],
+        "id": "survey-4",
+        "issued": {
+            "date-parts": [
+                [
+                    2012,
+                    3
+                ]
+            ]
+        },
+        "title": "Search engine use 2012",
+        "type": "paper-conference"
+    },
+    {
+        "URL": "http://truste.com/ad-privacy/TRUSTe-2011-Consumer-Behavioral-Advertising-Survey-Results",
+        "id": "survey-3",
+        "issued": {
+            "date-parts": [
+                [
+                    2011,
+                    7
+                ]
+            ]
+        },
+        "publisher": "TRUSTe and Harris Interactive; TRUSTe and Harris Interactive",
+        "title": "Privacy and online behavioral advertising",
+        "type": "paper-conference"
+    },
+    {
+        "URL": "https://web.archive.org/web/20120202002018/http://gallup.com/poll/File/145334/Internet_Ads_Dec_21_2010.pdf",
+        "author": [
+            {
+                "family": "Gallup"
+            }
+        ],
+        "id": "survey-2",
+        "issued": {
+            "date-parts": [
+                [
+                    2010,
+                    12
+                ]
+            ]
+        },
+        "title": "USAToday/galluppoll",
+        "type": "paper-conference"
+    },
+    {
+        "URL": "https://repository.upenn.edu/cgi/viewcontent.cgi?article=1138&context=asc_papers",
+        "author": [
+            {
+                "family": "Turow",
+                "given": "Joseph"
+            },
+            {
+                "family": "King",
+                "given": "Jennifer"
+            },
+            {
+                "family": "Hoofnatle",
+                "given": "Chris Jay"
+            },
+            {
+                "family": "Bleakley",
+                "given": "Amy"
+            },
+            {
+                "family": "Hennessy",
+                "given": "Michael"
+            }
+        ],
+        "id": "survey-1",
+        "issued": {
+            "date-parts": [
+                [
+                    2009,
+                    9
+                ]
+            ]
+        },
+        "title": "Americans reject tailored advertising and three activities that enable it",
+        "type": "paper-conference"
+    },
+    {
+        "DOI": "10.1109/SP.2012.47",
+        "ISSN": "2375-1207",
+        "abstract": "In the early days of the web, content was designed and hosted by a single person, group, or organization. No longer. Webpages are increasingly composed of content from myriad unrelated \"third-party\" websites in the business of advertising, analytics, social networking, and more. Third-party services have tremendous value: they support free content and facilitate web innovation. But third-party services come at a privacy cost: researchers, civil society organizations, and policymakers have increasingly called attention to how third parties can track a user’s browsing activities across websites. This paper surveys the current policy debate surrounding third-party web tracking and explains the relevant technology. It also presents the FourthParty web measurement platform and studies we have conducted with it. Our aim is to inform researchers with essential background and tools for contributing to public understanding and policy debates about web tracking.",
+        "author": [
+            {
+                "family": "Mayer",
+                "given": "Jonathan R."
+            },
+            {
+                "family": "Mitchell",
+                "given": "John C."
+            }
+        ],
+        "container-title": "2012 IEEE Symposium on Security and Privacy",
+        "publisher": "IEEE",
+        "id": "website-survey",
+        "issued": {
+            "date-parts": [
+                [
+                    2012,
+                    5
+                ]
+            ]
+        },
+        "keyword": "data privacy;Web sites;third-party Web tracking;Web pages;third-party Web sites;advertising;analytics;social networking;Web innovation;privacy;user browsing activity tracking;fourth party Web measurement platform;Privacy;Advertising;Companies;Security;History;Economics;Web privacy;third-party tracking;Do Not Track",
+        "page": "413-427",
+        "title": "Third-Party Web Tracking: Policy and Technology",
+        "title-short": "Third-party web tracking",
+        "type": "paper-conference"
+    },
+    {
+        "type": "webpage",
+        "id": "race-to-gdpr",
+        "URL": "https://iapp.org/media/pdf/resource_center/Ponemon_race-to-gdpr.pdf",
+        "publisher": "IAPP",
+        "author": [
+            {
+                "family": "Ponemon Institute"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2018,
+                    4
+                ]
+            ]
+        },
+        "title": "The race to GDPR: A study of companies in the United States & Europe",
+        "accessed": {
+            "date-parts": [
+                [
+                    2020,
+                    8,
+                    20
+                ]
+            ]
+        }
+    }
+]

@@ -10,8 +10,22 @@
     keywords: [gdpr, dsgvo, cookies, web, banner, viewport, survey]
     
     # This can be replaced with any valid bibliography file (.yaml, .json, .bib)
-    bibliography: src/bibliography.bib
+    bibliography: src/bibliography.json
+
+    lang: en
+
+    figPrefix:
+      - "figure"
+      - "figures"
+
+    secPrefix:
+      - "section"
+      - "sections"
 ---
+
+\definecolor{accept}{HTML}{A3BE8C}
+\definecolor{maybe}{HTML}{EBCB8B}
+\definecolor{reject}{HTML}{BF616A}
 
 # Introduction
 
@@ -27,7 +41,7 @@ With users being exposed to cookie notices, opt-in banners, and consent modals f
 
 Given that question this paper will focus on the following two research questions:
 
-1. How did consent requirements evolve in the European Union over the last two decades?
+1. How did consent requirements evolve in the (+EU) over the last two decades?
 2. What effect does the size of a consent banner have on the number of users interacting with it?
 
 The first question will be answered by researching documents regarding the legislation surrounding data privacy. The second question will be evaluated through a survey which guides users through a few websites with different consent mechanisms.
