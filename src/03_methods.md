@@ -1,31 +1,19 @@
 # Methods
 
-1. Which method is used to analyse effects? Interactive survey.
--- Survey design
-2. How is consistency/comparability ensured? Isolated environment on controlled devices.
-3. What does the survey contain and why? Rough outline.
-    - Language fixed to German to catch more than just bilingual people, mostly german web pages
-    - Various pages with cookie banners of different viewport ratios and contrast ratios {#sec:method:pages}
-        - Step right here is to choose pages that cover a good range of ratios
-        - Limit pages to six to keep length in check
-    - Static questions at the end regarding demographics and one about privacy vs. comfort
-4. Exact method by which pages will be selected and how the user will interact with it
-    - Includes why we can't tell the user what we are looking for
-    - Use bogus tasks to distract the user from the actual topic (did work, feedback Noah)
--- Survey distribution
-5. How will the survey be distributed? Known persons with applicable device classes.
-6. Target audience size (and more importantly why)
-7. Collection time period? Roughly two weeks to keep a balance between available time and representativeness
--- Evaluation of results
-8. How will the results be evaluated?
-    - Static data analysis based on JSON output from ResearchKit
-    - Review of screen recordings, each page interaction rated by the following criteria
-        - Interact on page load (accept, configure, ignore)
-        - Interaction after page navigation (accept, configure, ignore)
-        - Forced to interact with banner (yes, no) <!-- as some pages contain routes that force interaction -->
+As mentioned in the introduction, an interactive survey will be used to answer the second research question. This method has been choosen because it allows for a fully controlled environment and, depending on the survey design, relatively unbiased insights into the users behaviour.
 
-- Explain iOS app and distribution through TestFlight VERY briefly
-  - Make sure to include test device screen size and DPI to make sure the viewport ratios are accurate
-  - Note tradeoff between improved accuracy and lowered evaluation overhead vs. quantity of results
+## Survey design {#sec:method:design}
 
-\pagebreak
+To ensure consistent results and avoid any bias that might come from different device aspect ratios, screen resolutions or other hardware/software factors a fully controlled environment will be employed. Surveys will be conducted on Apple iPad Pro's with a screen size of 12.9" running iPadOS 13. This is a trade-off towards improved result accuracy at the cost of the reach as many users do not own a matching device. The users will be guided through the data collection process by a custom mobile App that will be purpose-built for this research. It will record the device screen for later analysis of the users behaviour and will make use of the [ResearchKit Framework](http://researchkit.org) framework to simplify the implementation. The source code can be found on GitHub^[The link has been excluded in this version of the document for the author to remain anonymous]. The survey will be written in german and mostly german websites are used to extend the participant group beyond just bilingual people.
+
+The first section will introduce the user to the survey, instruct him regarding data privacy and ask for optional permission to publish the raw results. Additionally, it will run the setup which starts the screen recording and creates necessary files on disk. Then, the user will be shown a list of six assignments^[This number has been chosen so that the survey takes approximately ten minutes.] which ask him to fulfill a task on a webpage. The task has been put in place to distract from the actual goal of the survey and guide the user to interact with each of the predetermined sites. For each assignment an isolated browser with its own set of initially empty cookies and preferences will be created. It contains a list of pre-defined bookmarks that are needed to navigate the requested pages. In order to prevent any bias, the order of assignments will be randomized for each participant. The pages will be chosen so that cookie banners with a wide range of different sizes and contrast ratios are included.
+
+At the end of the survey a set of questions will be presented. These primarily cover demographics like occupation and whether or not the person is working in the (+IT) sector. Additionally, the participant will be asked to estimate his computer knowledge and whether he values privacy over comfort. These questions will be used later to determine whether or not various demographic groups behave differently. Finally, the participant will be presented with an option to share his E-Mail address if they wish to receive the final results.
+
+## Survey distribution
+
+To fit within the time constraints of this research format the survey will be live for roughly two weeks. As the survey has very specific hardware requirements, a personal distribution method will be used. This involves loading the application onto devices of family, friends and acquaintances. These people are then asked to conduct the survey with others they encounter using their device and send the results, which will be collected and archived by the application automatically, back. As the iOS/iPadOS ecosystem does not support direct installation of an application from a file, the TestFlight beta testing service will be used to install the app.
+
+## Result collection
+
+After the raw survey results have been collected the data has to be interpreted. For this to happen a few preprocessing steps are necessary. The question results will be exported by ResearchKit as JSON and reshaped into CSV by a NodeJS script which is included in the GitHub repository. This table will then be augmented through a manual review of the screen recordings. Each assignment and thus page interaction will be rated as follows: What action did the user take? This can be either \emph{Accept} (did accept the cookies), \emph{Reject} (did reject the cookies) or \emph{Ignore} (ignored the banner). If he interacted with it, the time will be recorded as either \emph{on-load} (directly after loading the page) or \emph{after-navigation} (after interacting with the page).

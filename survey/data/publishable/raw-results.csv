@@ -1,0 +1,17 @@
+;IKEA;;;Mindfactory;;;Twitter;;;fluege.de;;;Netflix;;;Backblaze;;;Derived;;;;;;;Survey question results;;;;
+id;Duration;Action;When;Duration;Action;When;Duration;Action;When;Duration;Action;When;Duration;Action;When;Duration;Action;When;Total time;Accept;Reject;Ignore;Accept %;Reject %;Ignore %;shareConsent;occupation;itWorkplace;knowledge;privacy
+1B5B6E97-2C17-4502-B10C-0375480FA2A4;57;Ignore;;89;Ignore;;109;Ignore;;157;Ignore;;190;Reject;Load;214;Ignore;;14;0;1;5;0;0,166666666666667;0,833333333333333;TRUE;Arbeitstätig;FALSE;3;2
+22E4A0FE-E246-4467-856F-EBB687084BB4;56;Ignore;;232;Accept;Load;107;Accept;Load;233;Accept;Navigation;32;Reject;Load;156;Accept;Load;14;4;1;1;0,666666666666667;0,166666666666667;0,166666666666667;TRUE;Student;FALSE;7;3
+3424660F-4FD0-4565-BD33-A46DDF095808;27;Ignore;;56;Reject;Navigation;32;Ignore;;92;Ignore;;30;Reject;Navigation;77;Reject;Load;5;0;3;3;0;0,5;0,5;TRUE;Arbeitstätig;TRUE;10;5
+371214FB-C812-442E-8EE7-3D4DD9E0AC01;40;Ignore;;38;Reject;Load;50;Ignore;;82;Accept;Load;36;Reject;Load;27;Reject;Load;5;1;3;2;0,166666666666667;0,5;0,333333333333333;TRUE;Student;TRUE;10;5
+3EF6885F-0ED1-4EAF-848C-E52DCBDEA547;134;Ignore;;115;Ignore;;97;Ignore;;183;Ignore;;105;Ignore;;61;Ignore;;12;0;0;6;0;0;1;TRUE;Pensioniert;FALSE;2;3
+46FB0295-B659-4E41-A13D-4E5D4B46EB20;47;Ignore;;131;Reject;Navigation;25;Ignore;;112;Ignore;;39;Accept;Navigation;91;Reject;Navigation;7;1;2;3;0,166666666666667;0,333333333333333;0,5;TRUE;Student;TRUE;7;6
+4E13E3C7-F80E-4132-A7EC-CD56EE310808;44;Ignore;;55;Accept;Load;72;Ignore;;76;Ignore;;59;Ignore;;191;Accept;Navigation;8;2;0;4;0,333333333333333;0;0,666666666666667;TRUE;Student;FALSE;7;2
+7639620D-91F8-4E1F-BF32-0A47642198A9;40;Ignore;;55;Accept;Load;56;Ignore;;57;Ignore;;29;Reject;Navigation;78;Reject;Load;5;1;2;3;0,166666666666667;0,333333333333333;0,5;TRUE;Student;TRUE;8;4
+79228453-7271-4DAA-8BF3-C6A6F86F5CF4;88;Ignore;;60;Ignore;;48;Ignore;;177;Ignore;;70;Ignore;;150;Ignore;;10;0;0;6;0;0;1;TRUE;Student;TRUE;9;2
+80EF2E64-6B66-4A1F-9096-E314C19E2F4B;94;Accept;Navigation;114;Accept;Navigation;79;Ignore;;214;Ignore;;84;Reject;Navigation;212;Accept;Navigation;13;3;1;2;0,5;0,166666666666667;0,333333333333333;TRUE;Student;FALSE;2;3
+9DF14B38-B3BF-47A3-A5EE-DAA0E122EC99;62;Ignore;;92;Accept;Load;47;Ignore;;122;Accept;Load;50;Ignore;;154;Reject;Navigation;9;2;1;3;0,333333333333333;0,166666666666667;0,5;TRUE;Student;TRUE;6;2
+CF434BC4-8AAE-4BED-8604-FB9160F13DC9;63;Accept;Navigation;46;Reject;Load;29;Ignore;;82;Accept;Navigation;28;Accept;Load;82;Reject;Navigation;6;3;2;1;0,5;0,333333333333333;0,166666666666667;TRUE;Student;TRUE;10;5
+DF1F0B4A-335F-420D-A983-AFEE46C72563;49;Accept;Navigation;54;Accept;Load;49;Ignore;;122;Ignore;;59;Accept;Load;85;Reject;Load;7;3;1;2;0,5;0,166666666666667;0,333333333333333;TRUE;Student;FALSE;8;3
+F7EF37E5-AD93-4737-AF23-6D77E07624DB;254;Ignore;;261;Accept;Load;59;Ignore;;396;Ignore;;70;Ignore;;221;Accept;Load;21;2;0;4;0,333333333333333;0;0,666666666666667;TRUE;Arbeitstätig;TRUE;8;3
+F9B0D706-660C-4805-B588-56E9D92124A0;63;Ignore;;294;Reject;Navigation;130;Ignore;;92;Ignore;;54;Accept;Navigation;97;Accept;Navigation;12;2;1;3;0,333333333333333;0,166666666666667;0,5;TRUE;Arbeitstätig;FALSE;3;5

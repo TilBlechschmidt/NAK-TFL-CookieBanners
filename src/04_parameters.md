@@ -1,6 +1,6 @@
 # Parameters
 
-To begin with, as outlined in @sec:method:pages, a set of websites with varying cookie banner sizes have to be chosen for the survey. An overview can be found in +@tbl:websites and each page and its associated task will be described briefly below. All pages listed here have been submitted to the Internet Archive at the time the survey was published to retain a reproducible record of how they looked as the web is constantly changing. The links are provided in the footnotes.
+To begin with, as outlined in @sec:method:design, a set of websites with varying cookie banner sizes have to be chosen for the survey. An overview can be found in +@tbl:websites and each page and its associated task will be described briefly below. All pages listed here have been submitted to the Internet Archive at the time the survey was published to retain a reproducible record of how they looked as the web is constantly changing. The links are provided in the footnotes.
 
 \newcommand{\yes}{{\color{accept}Yes}}
 \newcommand{\no}{{\color{reject}No}}
@@ -59,3 +59,5 @@ The last page is social network. This one has a semi-compliant grey-on-black ban
 **Assignment:** To complete this task the user has to visit a user's profile and search for the age of the latest tweet. While rather simplistic, this task shows whether or not the user interacts with the banner before it is too late.
 
 <!-- markdownlint-enable MD024 -->
+
+\pagebreak

@@ -1,6 +1,6 @@
 ---
     header-title: Transferleistung 3
-    title: 
+    title: Effect of cookie banner design on user click-through rate
 
     author: Til Blechschmidt
     Zenturie: A17a
@@ -21,6 +21,8 @@
     secPrefix:
       - "section"
       - "sections"
+
+    lof: true
 ---
 
 \definecolor{accept}{HTML}{A3BE8C}
