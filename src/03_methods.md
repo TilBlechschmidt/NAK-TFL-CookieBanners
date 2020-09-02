@@ -1,8 +1,8 @@
-# Methods
+# Survey
 
 As mentioned in the introduction, an interactive survey will be used to answer the second research question. This method has been choosen because it allows for a fully controlled environment and, depending on the survey design, relatively unbiased insights into the users behaviour.
 
-## Survey design {#sec:method:design}
+## Design {#sec:method:design}
 
 To ensure consistent results and avoid any bias that might come from different device aspect ratios, screen resolutions or other hardware/software factors a fully controlled environment will be employed. Surveys will be conducted on Apple iPad Pro's with a screen size of 12.9" running iPadOS 13. This is a trade-off towards improved result accuracy at the cost of the reach as many users do not own a matching device. The users will be guided through the data collection process by a custom mobile App that will be purpose-built for this research. It will record the device screen for later analysis of the users behaviour and will make use of the [ResearchKit Framework](http://researchkit.org) framework to simplify the implementation. The source code can be found on GitHub^[The link has been excluded in this version of the document for the author to remain anonymous]. The survey will be written in german and mostly german websites are used to extend the participant group beyond just bilingual people.
 
@@ -10,10 +10,10 @@ The first section will introduce the user to the survey, instruct him regarding 
 
 At the end of the survey a set of questions will be presented. These primarily cover demographics like occupation and whether or not the person is working in the (+IT) sector. Additionally, the participant will be asked to estimate his computer knowledge and whether he values privacy over comfort. These questions will be used later to determine whether or not various demographic groups behave differently. Finally, the participant will be presented with an option to share his E-Mail address if they wish to receive the final results.
 
-## Survey distribution
+## Distribution
 
 To fit within the time constraints of this research format the survey will be live for roughly two weeks. As the survey has very specific hardware requirements, a personal distribution method will be used. This involves loading the application onto devices of family, friends and acquaintances. These people are then asked to conduct the survey with others they encounter using their device and send the results, which will be collected and archived by the application automatically, back. As the iOS/iPadOS ecosystem does not support direct installation of an application from a file, the TestFlight beta testing service will be used to install the app.
 
-## Result collection
+## Data collection
 
 After the raw survey results have been collected the data has to be interpreted. For this to happen a few preprocessing steps are necessary. The question results will be exported by ResearchKit as JSON and reshaped into CSV by a NodeJS script which is included in the GitHub repository. This table will then be augmented through a manual review of the screen recordings. Each assignment and thus page interaction will be rated as follows: What action did the user take? This can be either \emph{Accept} (did accept the cookies), \emph{Reject} (did reject the cookies) or \emph{Ignore} (ignored the banner). If he interacted with it, the time will be recorded as either \emph{on-load} (directly after loading the page) or \emph{after-navigation} (after interacting with the page).

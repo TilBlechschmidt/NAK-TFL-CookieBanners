@@ -1,4 +1,4 @@
-# History of online data privacy in the (+EU)
+# History of online data privacy in the (+EU) {#sec:history}
 
 At the beginning of the 21st century the world-wide web was a wild-west of tracking and personal data collection. In 2002 the (+EU) took action to counter this development and published the so-called ePrivacy directive (Privacy and Electronic Communications Directive 2002/58/EC). It acknowledged both the importance and usefulness of cookies but also the danger they could pose to a user's privacy [@ePrivacy-2002]. While the directive was designed to make (+opt-in) a requirement it could be interpreted differently, instead allowing (+opt-out).
 
