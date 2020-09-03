@@ -40,25 +40,25 @@ This online shop has been selected for its sizable banner at approximately 17.3\
 
 This computer shop has been elected for its use of orange on white colors, which is expected to increase noticeability of the banner. It blocks the main navigation, which opens up the possibility for forced interactions. As the background is white and the banner orange it is very prominent and thus expected to not be overlooked by any user. A screenshot can be seen in [@fig:snapshot-mindfactory].
 
-**Assignment:** To direct the user through a path which requires a forced interaction the task calls for the number of 1TB USB Stick models currently in the shop. To find this number the user has to open up the navigation menu called "Hardware" and click "USB Sticks" which directs him to an overview. A new hierarchical navigation opens up on the left which has a subcategory for 1TB sticks. Once selected the user can either count the sticks as the amount is very low or read a label at the very top of the list.
+**Assignment:** To direct the user through a path which requires a forced interaction the task calls for the number of 1 TB USB Stick models currently in the shop. To find this number the user has to open up the navigation menu called "Hardware" and click "USB Sticks" which directs him to an overview. A new hierarchical navigation opens up on the left which has a subcategory for 1 TB sticks. Once selected the user can either count the sticks as the amount is very low or read a label at the very top of the list.
 
 ## Fluege.de^[[Fluege.de snapshot](https://web.archive.org/web/20200803100114/https%3A%2F%2Fwww.fluege.de%2F)]{#sec:fluege.de}
 
-Intriguingly this page is not only colorful but also non-compliant in all aspects. While it does maintain a high contrast with white on blue and a drop shadow (ref. [@fig:snapshot-fluege.de]), the popup manages to disappear when the user interacts with any text inputs on the page. Not that it matters, as this page does not honor any consents and tracks the user regardless, enabling even more external trackers when consent is actually given. At roughly 12.6\% it is covering the middle field in terms of screenspace occupied.
+Intriguingly this page is not only colorful but also non-compliant in all aspects. While it does maintain a high contrast with white on blue and a drop shadow (ref. [@fig:snapshot-fluege.de]), the popup manages to disappear when the user interacts with any text inputs on the page. Not that it matters, as this page does not honor any consents and tracks the user regardless, enabling even more external trackers when consent is actually given. At roughly 12.6\% it is covering the middle field in terms of screen space occupied.
 
 **Assignment:** Since this page dismisses the consent popup as soon as the user interacts with the page, there is no point in staying on this page for prolonged periods of time. Thus, to keep the interaction short, this task asks the user to enter a few route details and retrieve the departure time of the first flight listed in the results. While the result list is loading, the banner is briefly visible for a few seconds as seen in [@fig:snapshot-fluege.de-loading].
 
 ## Netflix^[[Netflix snapshot](https://web.archive.org/web/20200803095759/https%3A%2F%2Fwww.netflix.com%2F)]
 
-This popular page has been included because it is compliant in all aspects and very simplistic. Its banner covers roughly 9.6\% of the screen and has a high contrast ratio of approximately 17:1. (ref. [@fig:snapshot-netflix]) Due to the relatively small size and inverted colors it is an interesting contender which could shed light on the importance of color contrast.
+This popular page has been included because it is compliant in all aspects and very simplistic. Its banner covers roughly 9.6\% of the screen and has a high contrast ratio of approximately 17:1 (ref. [@fig:snapshot-netflix]). Due to the relatively small size and inverted colors it is an interesting contender which could shed light on the importance of color contrast.
 
 **Assignment:** As this page has not much to interact with, the assignment here is to scroll down to the FAQ on the bottom of the site and find the price of the most expensive subscription available.
 
 ## Twitter^[[Twitter snapshot](https://web.archive.org/web/20200803100018/https%3A%2F%2Ftwitter.com%2Fi%2Fmoments)]
 
-The last page is a social network with a semi-compliant grey-on-black banner which notifies the user that they will be tracked if they continue (ref. [@fig:snapshot-twitter]). It covers a paltry 5% of the screen. While they do not track before the user navigates around the site, they are not providing a means of rejecting tracking and have an implicit accept^[Although they keep the banner around until the user actively dismisses it as opposed to Flüge.de] which is stricly speaking non-compliant.
+The last page is a social network with a semi-compliant grey on black banner which notifies the user that they will be tracked if they continue (ref. [@fig:snapshot-twitter]). It covers a paltry 5% of the screen. While they do not track before the user navigates around the site, they are not providing a means of rejecting tracking and have an implicit accept^[Although they keep the banner around until the user actively dismisses it as opposed to Flüge.de] which is strictly speaking non-compliant.
 
-**Assignment:** To complete this task the user has to visit a user's profile and search for the age of the latest tweet. While rather simplistic, this task shows whether or not the user interacts with the banner before it is too late.
+**Assignment:** To complete this task the user has to visit a user's profile and search for the age of the latest tweet. While rather simplistic, this task shows whether the user interacts with the banner before it is too late.
 
 <!-- markdownlint-enable MD024 -->
 
