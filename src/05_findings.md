@@ -1,5 +1,7 @@
 # Findings
 
+The survey has been conducted over a period of two weeks and 27 people did participate. Out of those, three results were invalid due to file corruption and/or circumvention of the survey mechanisms. A total of 15 persons gave consent to share their results publicly and the corresponding files will be published in the accompanying GitHub repository^[Link exluded in this version of the document].
+
 ## Overall
 
 Even though the overall interaction results are not related to a specific page or cookie banner style, they may still contain valuable insights. As seen in [@fig:overall] a majority of cookie banners were ignored with a (+CTR) of 45%^[This states that of all displayed cookie banners only 45% were interacted with]. This indicates that they are only mildly effective in capturing the users attention in general. However, it has to be taken into consideration that participants may have been conditioned to specifically ignore such banners as the concept has been in use since the early 21st century (for more details, refer @sec:history). It could also be caused by the short-term nature of the interaction of this survey. Users who interact with a page more frequently and for longer durations are expected to behave differently. These questions are ideally suited for future research into the topic.
@@ -44,7 +46,7 @@ This section will evaluate the (+CTR) for each page and take a look on the effec
 
 **Backblaze:** This service tied with Mindfactory in terms of (+CTR). While the popup has no color contrast it stands out due to the drop shadow and signal colors (red, green) on the buttons. This suggests that missing contrast can be made up by a shadow and size. A noticeable detail is the change in the accept/reject ratio with more users rejecting the policy. It is possible that the clear use of signal colors for the buttons had an effect on this, however further research needs to be conducted in this area.
 
-The results above show that multiple factors like size, contrast ratio, use of signal colors and shadows have an effect on the (+CTR). While no clear importance ranking is possible it seems that shadows and a high contrast ratio can be interchanged. Additionally, the use of signal colors appears to have a profound impact in steering the user focus. TODO Find a source that backs this!
+The results above show that multiple factors like size, contrast ratio, use of signal colors and shadows have an effect on the (+CTR). While no clear importance ranking is possible it seems that shadows and a high contrast ratio can be interchanged. Additionally, the use of signal colors appears to have a profound impact in steering the user focus. This theory is backed by Gama et al. [@color-blending].
 
 Another takeaway is that the most prominent pages only gained rejections beyond a certain point (around 38% for this data set). This can be caused due to pages making it hard to reject their policy or by the possibility that users that tend to reject also have a higher bar for noticing banners. To answer this with certainty, further research focused on this has to be conducted.
 
@@ -58,5 +60,3 @@ First off all, there are few extremes. Two users ignored every banner but other 
 - Slight tendency towards accepting pages
   - A few opinionated users (4) shift the [@fig:overall] towards accepted
 -->
-
-\pagebreak

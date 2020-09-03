@@ -257,6 +257,7 @@
           <group delimiter=", ">
             <text macro="title"/>
             <text macro="event"/>
+            <text macro="publisher"/>
             <text macro="issued"/>
             <text macro="locators"/>
             <text macro="page"/>
@@ -286,6 +287,7 @@
           <group delimiter=", " suffix=". ">
             <text macro="title"/>
             <text variable="container-title" font-style="italic"/>
+            <text macro="publisher"/>
             <text macro="issued"/>
           </group>
           <text macro="access"/>

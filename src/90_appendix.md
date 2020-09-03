@@ -52,3 +52,7 @@ All figures and screenshots below have been created/captured by the author for t
 ![Survey snapshot — Twitter](src/images/snapshots/twitter.png){#fig:snapshot-twitter}
 
 \clearpage
+
+\phantomsection
+\stepcounter{subsection}
+\addcontentsline{toc}{subsection}{\protect\numberline{\thesubsection}Glossary}

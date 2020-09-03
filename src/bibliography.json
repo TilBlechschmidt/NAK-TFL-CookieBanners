@@ -12,6 +12,15 @@
                 ]
             ]
         },
+        "accessed": {
+            "date-parts": [
+                [
+                    2020,
+                    9,
+                    2
+                ]
+            ]
+        },
         "title": "Directive 2002/58/EC of the European Parliament and of the Council"
     },
     {
@@ -24,7 +33,16 @@
                 ]
             ]
         },
-        "title": "RICHTLINIE 2009/136/eg des europäischen Parlaments und des Rates",
+        "accessed": {
+            "date-parts": [
+                [
+                    2020,
+                    9,
+                    2
+                ]
+            ]
+        },
+        "title": "Richtlinie 2009/136/EG des Europäischen Parlaments und des Rates",
         "type": "webpage"
     },
     {
@@ -38,7 +56,16 @@
                 ]
             ]
         },
-        "title": "REGULATION (eu) 2016/679 of the european parliament and of the council",
+        "accessed": {
+            "date-parts": [
+                [
+                    2020,
+                    9,
+                    2
+                ]
+            ]
+        },
+        "title": "Regulation (eu) 2016/679 of the European Parliament and of the Council",
         "type": "webpage"
     },
     {
@@ -58,7 +85,16 @@
                 ]
             ]
         },
-        "title": "Cookie-einwilligung muss aktiv angekreuzt werden",
+        "accessed": {
+            "date-parts": [
+                [
+                    2020,
+                    9,
+                    2
+                ]
+            ]
+        },
+        "title": "Cookie-Einwilligung muss aktiv angekreuzt werden",
         "type": "webpage"
     },
     {
@@ -78,13 +114,40 @@
                 ]
             ]
         },
-        "title": "Cookies nur mit einwilligung?",
+        "accessed": {
+            "date-parts": [
+                [
+                    2020,
+                    9,
+                    2
+                ]
+            ]
+        },
+        "title": "Cookies nur mit Einwilligung?",
         "type": "webpage"
     },
     {
         "URL": "http://www.gesetze-im-internet.de/tmg/__13.html",
         "id": "tmg-art13",
         "title": "Telemediengesetz vom 26. Februar 2007 (bgbl. I s. 179)",
+        "issued": {
+            "date-parts": [
+                [
+                    2007,
+                    2,
+                    26
+                ]
+            ]
+        },
+        "accessed": {
+            "date-parts": [
+                [
+                    2020,
+                    9,
+                    2
+                ]
+            ]
+        },
         "type": "webpage"
     },
     {
@@ -104,14 +167,32 @@
                 ]
             ]
         },
-        "title": "Facebook trackt nutzer auf drei viertel aller deutschen nachrichtenseiten",
+        "accessed": {
+            "date-parts": [
+                [
+                    2020,
+                    9,
+                    2
+                ]
+            ]
+        },
+        "title": "Facebook trackt Nutzer auf drei Viertel aller deutschen Nachrichtenseiten",
         "type": "webpage"
     },
     {
         "URL": "https://edps.europa.eu/data-protection/data-protection/legislation/history-general-data-protection-regulation_en",
         "id": "gdpr-history",
         "publisher": "European data protection supervisor",
-        "title": "The history of the general data protection regulation",
+        "accessed": {
+            "date-parts": [
+                [
+                    2020,
+                    9,
+                    2
+                ]
+            ]
+        },
+        "title": "The history of the General Data Protection Regulation",
         "type": "webpage"
     },
     {
@@ -121,6 +202,15 @@
             "date-parts": [
                 [
                     2010,
+                    2
+                ]
+            ]
+        },
+        "accessed": {
+            "date-parts": [
+                [
+                    2020,
+                    9,
                     2
                 ]
             ]
@@ -170,6 +260,7 @@
                 ]
             ]
         },
+        "publisher": "Pew Research Center",
         "title": "Search engine use 2012",
         "type": "paper-conference"
     },
@@ -184,17 +275,13 @@
                 ]
             ]
         },
-        "publisher": "TRUSTe and Harris Interactive; TRUSTe and Harris Interactive",
+        "publisher": "TRUSTe and Harris Interactive",
         "title": "Privacy and online behavioral advertising",
         "type": "paper-conference"
     },
     {
         "URL": "https://web.archive.org/web/20120202002018/http://gallup.com/poll/File/145334/Internet_Ads_Dec_21_2010.pdf",
-        "author": [
-            {
-                "family": "Gallup"
-            }
-        ],
+        "publisher": "Gallup",
         "id": "survey-2",
         "issued": {
             "date-parts": [
@@ -204,7 +291,7 @@
                 ]
             ]
         },
-        "title": "USAToday/galluppoll",
+        "title": "USA TODAY/GALLUP POLL",
         "type": "paper-conference"
     },
     {
@@ -278,12 +365,7 @@
         "type": "webpage",
         "id": "race-to-gdpr",
         "URL": "https://iapp.org/media/pdf/resource_center/Ponemon_race-to-gdpr.pdf",
-        "publisher": "IAPP",
-        "author": [
-            {
-                "family": "Ponemon Institute"
-            }
-        ],
+        "publisher": "Ponemon Institute",
         "issued": {
             "date-parts": [
                 [
@@ -302,5 +384,31 @@
                 ]
             ]
         }
+    },
+    {
+        "DOI": "10.1145/2639189.2670264",
+        "URL": "https://doi.org/10.1145%2F2639189.2670264",
+        "author": [
+            {
+                "family": "Gama",
+                "given": "Sandra"
+            },
+            {
+                "family": "Gonçalves",
+                "given": "Daniel"
+            }
+        ],
+        "container-title": "Proceedings of the 8th Nordic Conference on Human-Computer Interaction Fun, Fast, Foundational - NordiCHI 14",
+        "id": "color-blending",
+        "issued": {
+            "date-parts": [
+                [
+                    2014
+                ]
+            ]
+        },
+        "publisher": "ACM Press",
+        "title": "Studying the perception of color components relative amounts in blended colors",
+        "type": "paper-conference"
     }
 ]
