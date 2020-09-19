@@ -26,13 +26,13 @@ Table: Websites evaluated^[TC: No tracking takes place before consent is given, 
 
 ## Backblaze^[[Backblaze snapshot](https://web.archive.org/web/20200803100221/https%3A%2F%2Fwww.backblaze.com%2F)]
 
-This page has been chosen for its very large popup at roughly 22\% as seen in [@fig:snapshot-backblaze]. Since it does not block the page modally it is still considered a banner even though it could be interpreted otherwise. At this size it is considered a major hindrance to the usability of the website but despite that the task has been designed carefully to permit solving without interacting with the banner. It has the same color as the page background, yielding a theoretical contrast ratio of 1:1. However, a drop shadow is present separating it visually from the page.
+This page has been chosen for its very large popup at roughly 22\% as seen in [@fig:snapshot-backblaze]. Since it does not block the page modally, it is still considered a banner even though it could be interpreted otherwise. At this size it is considered a major hindrance to the usability of the website but despite that the task has been designed carefully to permit solving without interacting with the banner. It has the same color as the page background, yielding a theoretical contrast ratio of 1:1. However, a drop shadow is present separating it visually from the page.
 
 **Assignment:** The task on this page will be to retrieve the maximum storage limit for the personal backup plan. To obtain this information the user has to navigate to the product page using one of two possible links. On the following site the information can be found in multiple places. While still solvable this task has been chosen to potentially seed confusion as the answer — that there is no upper limit to the backup storage — may not be obvious which might trick users into thinking the information is obstructed by the cookie banners.
 
 ## IKEA^[[IKEA snapshot](https://web.archive.org/web/20200803095633/https%3A%2F%2Fwww.ikea.com%2Fde%2Fde%2Fp%2Fribba-rahmen-schwarz-10378445%2F)]
 
-This online shop has been selected for its sizable banner at approximately 17.3\% which manages to blend into the background with a very slight drop shadow and the same, white color as seen in [@fig:snapshot-ikea]. Additionally, this shop provides the opportunity to design a task which forces the user to interact with the banner on one of the two possible navigation routes.
+This online shop has been selected for its sizable banner at approximately 17.3\% which manages to blend into the background with a very slight drop shadow and the same white color as seen in [@fig:snapshot-ikea]. Additionally, this shop provides the opportunity to design a task which forces the user to interact with the banner on one of the two possible navigation routes.
 
 **Assignment:** The objective for this web shop is to obtain the price of a picture frame called "*RIBBA*". An additional constraint is that the exact size of 61x91cm has to be found, which has been chosen deliberately as it creates two possible navigation paths. While the first one uses the search and scrolling to get the result, the second one requires the user to visit the product page of the picture frame and open the size dropdown. The last option in the dropdown (61x91cm) is covered by the cookie banner, effectively forcing the user to interact with it.
 
@@ -56,9 +56,9 @@ This popular page has been included because it is compliant in all aspects and v
 
 ## Twitter^[[Twitter snapshot](https://web.archive.org/web/20200803100018/https%3A%2F%2Ftwitter.com%2Fi%2Fmoments)]
 
-The last page is a social network with a semi-compliant grey on black banner which notifies the user that they will be tracked if they continue (ref. [@fig:snapshot-twitter]). It covers a paltry 5% of the screen. While they do not track before the user navigates around the site, they are not providing a means of rejecting tracking and have an implicit accept^[Although they keep the banner around until the user actively dismisses it as opposed to Flüge.de] which is strictly speaking non-compliant.
+The last page is a social network with a semi-compliant grey on black banner which notifies the user that they will be tracked if they continue (ref. [@fig:snapshot-twitter]). It covers a paltry 5% of the screen. While they do not track before the user navigates around the site, they are not providing a means of rejecting tracking and have an implicit accept^[Although on Twitter they keep the banner around until the user actively dismisses it as opposed to Fluege.de where it is dismissed automatically] which is strictly speaking non-compliant.
 
-**Assignment:** To complete this task the user has to visit a user's profile and search for the age of the latest tweet. While rather simplistic, this task shows whether the user interacts with the banner before it is too late.
+**Assignment:** To complete this task the user has to visit a users profile and search for the age of the latest tweet. While rather simplistic, this task shows whether the user interacts with the banner before it is too late.
 
 <!-- markdownlint-enable MD024 -->
 
