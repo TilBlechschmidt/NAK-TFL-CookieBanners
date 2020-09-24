@@ -1,4 +1,5 @@
-# Scientific paper template
+# Effect of cookie banner design on user click-through rate
 
-This is an example README.md for your next scientific paper! The templated evolved out of the need to write TFLs at the Nordakademie but not wanting to fight with LaTeX all day. So enjoy. Documentation can be found [here](https://texnak.github.io/Science-Paper-Template-Documentation/).
+[![DOI](https://zenodo.org/badge/285322578.svg)](https://zenodo.org/badge/latestdoi/285322578)
 
+This research paper evaluates the effect of different variables like size, contrast ratio, and color on the noticability of cookie banners.
