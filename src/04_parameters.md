@@ -2,8 +2,6 @@
 
 To begin with, as outlined in @sec:method:design, a set of websites with varying cookie banner sizes have to be chosen for the survey. An overview with important key factors can be found in +@tbl:websites. Each page, why it has been chosen, and what the assignment will be is described below. All pages listed have been submitted to the Internet Archive at the time the survey was published to retain a reproducible record of how they looked as the web is constantly changing. The links are provided in the footnotes. Additionally, screenshots of the survey interface have been captured for each page.
 
-TODO: Cite/explain [contrast ratio](https://www.w3.org/TR/WCAG20/#contrast-ratiodef).
-
 \newcommand{\yes}{{\color{accept}Yes}}
 \newcommand{\no}{{\color{reject}No}}
 
@@ -20,7 +18,7 @@ TODO: Cite/explain [contrast ratio](https://www.w3.org/TR/WCAG20/#contrast-ratio
 | Netflix     | \yes | \yes | 16.82:1 |  $9.6\%$ |  White / Black |
 | Twitter     | \yes | \no  |  5.61:1 |  $5.0\%$ |   Grey / Black |
 
-Table: Websites evaluated^[TC: No tracking takes place before consent is given, CC: Consent flow is compliant, CR: Contrast ratio] {#tbl:websites}
+Table: Websites evaluated^[TC: No tracking takes place before consent is given, CC: Consent flow is compliant, CR: [Contrast ratio]((https://www.w3.org/TR/WCAG20/#contrast-ratiodef))] {#tbl:websites}
 
 <!-- markdownlint-disable MD024 -->
 
